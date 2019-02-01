@@ -45,7 +45,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    bottom: -475px;
+    bottom: -800px;
 }
 
 .aboutContent {
@@ -66,7 +66,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    bottom: -475px;
+    bottom: -800px;
 }
 
 .contactContent {
@@ -87,7 +87,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    bottom: -475px;
+    bottom: -800px;
 }
 .slide-up
 {
@@ -96,5 +96,5 @@
 
 .slide-down
 {
-    bottom: -475px !important;
+    bottom: -800px !important;
 }
