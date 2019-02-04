@@ -1,38 +1,38 @@
 $(document).ready(function () {
-    $('.work').click(function () {
-        if ($('.workContent').hasClass('slide-up')) {
-            $('.workContent').addClass('slide-down', 1000);
-            $('.workContent').removeClass('slide-up');
+    $('.work, .closeBtn').click(function () {
+        if ($('.workContent, .closeContent').hasClass('slide-up')) {
+            $('.workContent, .closeContent').addClass('slide-down', 1000);
+            $('.workContent, .closeContent').removeClass('slide-up');
 
         } else {
-            $('.workContent').removeClass('slide-down');
-            $('.workContent').addClass('slide-up', 1000);
+            $('.workContent, .closeContent').removeClass('slide-down');
+            $('.workContent, .closeContent').addClass('slide-up', 1000);
         }
     });
 });
 
 $(document).ready(function () {
-    $('.about').click(function () {
-        if ($('.aboutContent').hasClass('slide-up')) {
-            $('.aboutContent').addClass('slide-down', 1000);
-            $('.aboutContent').removeClass('slide-up');
+    $('.about, .closeBtn2').click(function () {
+        if ($('.aboutContent, .closeContent2').hasClass('slide-up')) {
+            $('.aboutContent, .closeContent2').addClass('slide-down', 1000);
+            $('.aboutContent, .closeContent2').removeClass('slide-up');
 
         } else {
-            $('.aboutContent').removeClass('slide-down');
-            $('.aboutContent').addClass('slide-up', 1000);
+            $('.aboutContent, .closeContent2').removeClass('slide-down');
+            $('.aboutContent, .closeContent2').addClass('slide-up', 1000);
         }
     });
 });
 
 $(document).ready(function () {
-    $('.contact').click(function () {
-        if ($('.contactContent').hasClass('slide-up')) {
-            $('.contactContent').addClass('slide-down', 1000);
-            $('.contactContent').removeClass('slide-up');
+    $('.contact, .closeBtn3').click(function () {
+        if ($('.contactContent, .closeContent3').hasClass('slide-up')) {
+            $('.contactContent, .closeContent3').addClass('slide-down', 1000);
+            $('.contactContent, .closeContent3').removeClass('slide-up');
 
         } else {
-            $('.contactContent').removeClass('slide-down');
-            $('.contactContent').addClass('slide-up', 1000);
+            $('.contactContent, .closeContent3').removeClass('slide-down');
+            $('.contactContent, .closeContent3').addClass('slide-up', 1000);
         }
     });
 });
