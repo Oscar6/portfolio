@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.work, .closeBtn').click(function () {
+    $('.work-link, .closeBtn').click(function () {
         if ($('.workContent, .closeContent').hasClass('slide-up')) {
             $('.workContent, .closeContent').addClass('slide-down', 1000);
             $('.workContent, .closeContent').removeClass('slide-up');
@@ -12,7 +12,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.about, .closeBtn2').click(function () {
+    $('.about-link, .closeBtn2').click(function () {
         if ($('.aboutContent, .closeContent2').hasClass('slide-up')) {
             $('.aboutContent, .closeContent2').addClass('slide-down', 1000);
             $('.aboutContent, .closeContent2').removeClass('slide-up');
@@ -25,7 +25,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.contact, .closeBtn3').click(function () {
+    $('.contact-link, .closeBtn3').click(function () {
         if ($('.contactContent, .closeContent3').hasClass('slide-up')) {
             $('.contactContent, .closeContent3').addClass('slide-down', 1000);
             $('.contactContent, .closeContent3').removeClass('slide-up');

@@ -11,17 +11,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous" />
     <!-- Google font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&subset=latin-ext" />
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous" />
     <!-- Form style -->
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 
 <body background="./public/milkywayimg.jpg" style="background-position: center;
 background-repeat: no-repeat;
-background-size: cover; width: 100%; height: 100%">
+background-size: cover; width: 100%; height: 100%;">
 
     <!-- <video autoplay muted loop id="myVideo" style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%;">
         <source src="./public/milkyway.mp4" type="video/mp4">
@@ -29,18 +31,16 @@ background-size: cover; width: 100%; height: 100%">
 
     <div class="container">
 
-        <div class="row">
+        <!-- <div class="row">
             <h2>Oscar</h2>
-        </div>
+        </div> -->
 
         <div class="row">
-            <div class="links">
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a class="work" style="cursor: pointer;">Work</a></li>
-                    <li><a class="about" style="cursor: pointer;">About</a></li>
-                    <li><a class="contact" style="cursor: pointer;">Contact</a></li>
-                </ul>
+            <div class="navbar">
+                    <!-- <a style="color: white;">Home</a> -->
+                    <a class="about-link about-link-ltr" style="cursor: pointer; color: white;">About</a>
+                    <a class="work-link work-link-ltr" style="cursor: pointer; color: white;">Projects</a>
+                    <a class="contact-link contact-link-ltr" style="cursor: pointer; color: white;">Contact</a>
             </div>
         </div>
 
@@ -55,9 +55,26 @@ background-size: cover; width: 100%; height: 100%">
                         <a href="https://github.com/gysobu/BeatBurner" target="blank" class="burnify">
                             <img src="public/burnify.png">
                         </a>
+                        <p class="description">
+                            Burnify is a tool that assists users in burning calories via Spotify playlists curated by our team. 
+                            <br>
+                            With a researched formula, the tool calculates a user's maximum BPM needed to reach their FBZ (fat burning zone), a song's BPM, 
+                            and provides the estimated calorie count that they are expected to burn per song and playlist.
+                        </p>
                         <a href="https://github.com/gysobu/ScoreHop" target="blank" class="scoreHop">
                             <img src="public/logofinal.png">
                         </a>
+                        <p class="description">
+                            ScoreHop locates breweries around the event you are or will be attending.
+                            <br>
+                            Address links for breweries will redirect user to Google Maps for navigation.
+                        </p>
+                        <a href="https://github.com/Oscar6" target="blank" class="github">
+                            <i class="devicon-github-plain-wordmark colored"></i>
+                        </a>
+                        <p class="description">
+                            More Projects on GitHub
+                        </p>
                     </div>
                 </div>
             </div>
@@ -68,7 +85,44 @@ background-size: cover; width: 100%; height: 100%">
                 <i class="far fa-times-circle" style="cursor: pointer; color: rgb(255, 255, 255)"></i>
             </div>
             <div class="aboutContent">
-                About Work goes here
+                <div class="col-md-12">
+                    <div class="about">
+                        <div class="profile">
+                        </div>
+                        <p class="description" style="margin-top: 15px; font-size: 25px;">
+                            Hi, my name is Oscar.
+                            <br>
+                            Full Stack Web Developer who has grown from experience in Web Implementation, QA, and Content Management.
+                            <br>
+                            Lamar University film graduate with interests in science, technology, and renewable energy.
+                            <br>
+                            <img src="public/olive.jpg" style="border-radius: 50%; width: 125px;
+                            height: 125px; margin: auto; margin-top: 15px; margin-bottom: 5px;">
+                            <br>
+                            If I'm not on a run with my dog Olive or playing soccer while she watches on, I am indoors learning the stack below:
+                            <br>
+                            <div class="icons">
+                                <i class="devicon-html5-plain-wordmark"></i>
+                                <i class="devicon-css3-plain-wordmark colored"></i>
+                                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                                <i class="devicon-javascript-plain colored"></i>
+                                <i class="devicon-jquery-plain-wordmark colored"></i>
+                                <br>
+                                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                                <i class="devicon-express-original-wordmark"></i>
+                                <i class="devicon-react-original-wordmark colored"></i>
+                                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                                <br>
+                                <i class="devicon-postgresql-plain-wordmark colored"></i>
+                                <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                                <i class="devicon-git-plain-wordmark"></i>
+                                <br>
+                                <i class="devicon-illustrator-line colored"></i>
+                                <i class="devicon-photoshop-line colored"></i>
+                            </div>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -77,12 +131,28 @@ background-size: cover; width: 100%; height: 100%">
                 <i class="far fa-times-circle" style="cursor: pointer; color: rgb(255, 255, 255)"></i>
             </div>
             <div class="contactContent">
-                Contact Work goes here
+                <div class="col-md-12">
+                    <div class="contact">
+                        <p class="description" style="margin-top: 15px; font-size: 25px;">
+                        <div class="contactIcons">
+                            <i class="far fa-envelope"></i>
+                            <p style="font-size: 20px;">oscar.m1024@gmail.com</p>
+                            <a href="https://linkedin.com/in/oscarmirandacabrera" target="blank" class="gitprofile" style="color: white; margin-left: -10px;">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <br>
+                            <a href="https://github.com/Oscar6" target="blank" class="gitprofile" style="color: white; margin-left: -10px;">
+                                <i class="devicon-github-plain-wordmark"></i>
+                            </a>
+                        </div>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- <div class="aboutContent">
-                    About goes here
+                    Full Stack Web Developer who has grown from experience in Content Management, Web Implementation, and QA.
                 </div>
 
                 <div class="contactContent">
